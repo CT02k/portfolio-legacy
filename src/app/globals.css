@@ -1,21 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-zinc-100 flex flex-col h-screen text-black;
+}
+
+.content {
+  @apply flex flex-col items-center justify-center h-full;
+}
+
+.main {
+  @apply flex flex-col justify-center w-2/4;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h1 span {
+  @apply text-blue-300;
+}
+
+.main p {
+  @apply text-xl text-zinc-700;
+}
+
+.main .buttons {
+  @apply py-5 space-x-5;
+}
+
+.main .buttons a.cta {
+  @apply py-1 text-lg text-black underline transition hover:transition hover:text-zinc-500;
+}
+
+.projects {
+  @apply py-5;
+}
+
+.project-group {
+  @apply flex flex-col py-5 space-y-5;
+}
+
+.project {
+  @apply flex flex-row p-3 items-center w-2/3 rounded-lg transition hover:transition hover:bg-zinc-200/35;
+}
+
+.project img {
+  @apply h-[75px] w-[75px] rounded-lg;
+}
+
+.project .text {
+  @apply px-5;
+}
+
+.project .text h2 {
+  @apply text-2xl font-bold;
+}
+
+.project .text p {
+  @apply text-base text-zinc-700;
+}
+
+.contact {
+  @apply py-5;
+}
+
+footer {
+  @apply absolute bottom-0 py-5 text-center w-full bg-zinc-100;
+}
+
+a.link {
+  @apply text-blue-500 underline transition hover:transition hover:text-blue-400;
 }
