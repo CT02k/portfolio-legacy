@@ -5,42 +5,22 @@ export default function Page() {
           <h1>Projetos<span>*</span></h1>
           <p>Conheça alguns dos projetos que desenvolvi</p>
           <div className="project-group">
-            <a href="">         
+            <a href="https://rayssa.xyz?ref=ct02.work">         
               <div className="project">
-                <img src="/rs.jpg" alt="Projeto 1" />
+                <img src="https://rayssa.xyz/discover.png" alt="Rayssa" />
                 <div className="text">
-                  <h2>RedSilver</h2>
-                  <p>Loja de panelas online pra aplicar golpe em trouxa, faz o L</p>
+                    <h2>Rayssa</h2>
+                    <p>Site para um bot de parcerias do Discord que mostra uma lista de servidores que a usam e outras funções.</p>
                 </div>
               </div>
             </a>
             <hr />
-            <a href="">         
+            <a href="https://parroturl.vercel.app/">         
               <div className="project">
-                <img src="/rs.jpg" alt="Projeto 1" />
+                <img src="https://parroturl.vercel.app/green_parrot.gif" alt="Parrot" />
                 <div className="text">
-                  <h2>RedSilver</h2>
-                  <p>Loja de panelas online pra aplicar golpe em trouxa, faz o L</p>
-                </div>
-              </div>
-            </a>
-            <hr />
-            <a href="">         
-              <div className="project">
-                <img src="/rs.jpg" alt="Projeto 1" />
-                <div className="text">
-                  <h2>RedSilver</h2>
-                  <p>Loja de panelas online pra aplicar golpe em trouxa, faz o L</p>
-                </div>
-              </div>
-            </a>
-            <hr />
-            <a href="">         
-              <div className="project">
-                <img src="/rs.jpg" alt="Projeto 1" />
-                <div className="text">
-                  <h2>RedSilver</h2>
-                  <p>Loja de panelas online pra aplicar golpe em trouxa, faz o L</p>
+                    <h2>Parrot URL</h2>
+                    <p>Encurtador de URLs com um papagaio (do minecraft) que dança, sim.</p>
                 </div>
               </div>
             </a>

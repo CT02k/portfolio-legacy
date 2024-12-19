@@ -16,11 +16,11 @@ export default function Home() {
           CT02<span>*</span>
         </h1>
         <p className="description">
-          Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em desenvolvimento web.
+          Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em desenvolvimento web. Trabalho com tecnologias como React, Next.js, Node.js, TypeScript, entre outras.
         </p>
         <div className="buttons">
-          <button onClick={() => handleNavigation("/projects")}>Projetos</button>
-          <button onClick={() => handleNavigation("/contact")}>Contato</button>
+          <button onClick={() => handleNavigation("/projects")} className="cta">Projetos</button>
+          <button onClick={() => handleNavigation("/contact")} className="cta">Contato</button>
         </div>
       </section>
     </main>

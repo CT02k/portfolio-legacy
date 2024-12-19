@@ -17,7 +17,7 @@ body {
 }
 
 .main {
-  @apply flex flex-col justify-center w-2/4;
+  @apply flex flex-col justify-center w-9/12 md:w-1/2;
 }
 
 h1 {
@@ -29,14 +29,14 @@ h1 span {
 }
 
 .main p {
-  @apply text-xl text-zinc-700;
+  @apply text-base text-zinc-700;
 }
 
 .main .buttons {
   @apply py-5 space-x-5;
 }
 
-.main .buttons a.cta {
+button.cta {
   @apply py-1 text-lg text-black underline transition hover:transition hover:text-zinc-500;
 }
 
@@ -49,7 +49,7 @@ h1 span {
 }
 
 .project {
-  @apply flex flex-row p-3 items-center w-2/3 rounded-lg transition hover:transition hover:bg-zinc-200/35;
+  @apply flex flex-row p-3 items-center w-80 md:w-2/3 rounded-lg grayscale transition hover:transition hover:grayscale-0 hover:bg-zinc-200/35;
 }
 
 .project img {
@@ -65,7 +65,7 @@ h1 span {
 }
 
 .project .text p {
-  @apply text-base text-zinc-700;
+  @apply text-xs md:text-base text-zinc-700;
 }
 
 .contact {
@@ -73,7 +73,7 @@ h1 span {
 }
 
 footer {
-  @apply absolute bottom-0 py-5 text-center w-full bg-zinc-100;
+  @apply absolute bottom-0 py-5 text-center w-full text-sm md:text-base bg-zinc-100;
 }
 
 a.link {
