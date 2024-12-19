@@ -40,7 +40,7 @@ export default function Page() {
                 <img src="https://raw.githubusercontent.com/CT02k/MailCord/refs/heads/main/preview.gif" alt="MailCord"></img>
                 <div className="text">
                     <h2>MailCord</h2>
-                    <p>Bot de Discord para enviar emails, com uma interface de chat.</p>
+                    <p>Sistema que detecta quando um email é recebido e o envia em uma webhook do Discord.</p>
                 </div>
               </div>
             </a>            
