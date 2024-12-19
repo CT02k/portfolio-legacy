@@ -15,6 +15,16 @@ export default function Page() {
               </div>
             </a>
             <hr />
+            <a href="https://ct02.work">         
+              <div className="project">
+                <img src="https://ct02.work/CT02.png" alt="CT02" />
+                <div className="text">
+                  <h2>Portfolio</h2>
+                  <p>Meu site pessoal, onde você está agora, com informações sobre mim e meus projetos.</p>
+                </div>
+              </div>
+            </a>
+            <hr />
             <a href="https://parroturl.vercel.app/">         
               <div className="project">
                 <img src="https://parroturl.vercel.app/green_parrot.gif" alt="Parrot" />
@@ -25,7 +35,15 @@ export default function Page() {
               </div>
             </a>
             <hr />
-            
+            <a href="https://github.com/CT02k/MailCord/">
+              <div className="project">
+                <img src="https://raw.githubusercontent.com/CT02k/MailCord/refs/heads/main/preview.gif" alt="MailCord"></img>
+                <div className="text">
+                    <h2>MailCord</h2>
+                    <p>Bot de Discord para enviar emails, com uma interface de chat.</p>
+                </div>
+              </div>
+            </a>            
           </div>
         </section>
       </main>
