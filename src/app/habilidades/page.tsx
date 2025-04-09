@@ -1,17 +1,9 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJs, faReact, faGit, faFigma, faNodeJs, faPhp, faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
-  const router = useRouter();
-
-  const handleNavigation = (path: string) => {
-    router.push(path);
-  };
-
   return (
     <main className="content">
       <section className="habilidades">
