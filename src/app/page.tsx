@@ -20,6 +20,7 @@ export default function Home() {
         </p>
         <div className="buttons">
           <button onClick={() => handleNavigation("/projects")} className="cta">Projetos</button>
+          <button onClick={() => handleNavigation("/habilidades")} className="cta">Habilidades</button>
           <button onClick={() => handleNavigation("/contact")} className="cta">Contato</button>
         </div>
       </section>

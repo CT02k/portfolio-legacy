@@ -2,6 +2,9 @@ import "./globals.css"
 
 import RandomText from "@/components/randomText";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,6 +22,11 @@ export default function RootLayout({
       <body>
         {children}
         <footer>
+        <div className="socials">
+          <a href="https://github.com/ct02k" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
           <RandomText />
         </footer>
       </body>

@@ -7,7 +7,7 @@ export default function Page() {
             Entre em contato comigo através do email <a className="link" href="mailto:contato@ct02.work">contato@ct02.work</a>
           </p>
           <p>
-            Ou pelo Discord <a className="link" href="https://discord.com/users/1292489217464860713">@ellestk</a>
+            Ou pelo Discord <a className="link" href="https://discord.com/users/859518290396184597">@ct02_</a>
           </p>
         </section>
       </main>
