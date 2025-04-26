@@ -21,14 +21,6 @@ export default function RootLayout({
       </head>
       <body>
         {children}
-        <footer>
-        <div className="socials">
-          <a href="https://github.com/ct02k" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </div>
-          <RandomText />
-        </footer>
       </body>
     </html>
   );
