@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply bg-zinc-100 flex flex-col h-screen text-black;
+  @apply bg-["/sl.png"] flex flex-col h-screen text-black;
 }
 
 .content {
