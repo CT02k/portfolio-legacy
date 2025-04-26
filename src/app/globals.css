@@ -9,7 +9,12 @@
 }
 
 body {
-  @apply bg-["/sl.png"] flex flex-col h-screen text-black;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: url("/sl.png");
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity,1));
 }
 
 .content {
