@@ -1,10 +1,5 @@
 import "./globals.css"
 
-import RandomText from "@/components/randomText";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
 export default function RootLayout({
   children,
 }: Readonly<{
