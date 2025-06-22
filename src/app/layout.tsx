@@ -2,6 +2,8 @@ import "./globals.css"
 
 import RandomText from "@/components/randomText";
 
+import "@fortawesome/fontawesome-svg-core/styles.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
