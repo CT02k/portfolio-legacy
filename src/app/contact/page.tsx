@@ -1,5 +1,7 @@
+import GoBack from "@/components/goBack";
+
 export default function Page() {
-    return (
+  return (
       <main className="content">
         <section className="main">
           <h1>Contato<span>*</span></h1>
@@ -9,8 +11,8 @@ export default function Page() {
           <p>
             Ou pelo Discord <a className="link" href="https://discord.com/users/859518290396184597">@ct02_</a>
           </p>
+        <GoBack />
         </section>
       </main>
     );
-  }
-  
+}

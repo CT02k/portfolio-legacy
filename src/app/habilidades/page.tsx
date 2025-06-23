@@ -3,6 +3,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJs, faReact, faGit, faFigma, faNodeJs, faPhp, faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons";
 
+import "./habilidades.css";
+
+import GoBack from "@/components/goBack";
+
 export default function Home() {
   return (
     <main className="content">
@@ -20,6 +24,7 @@ export default function Home() {
           <li><FontAwesomeIcon icon={faGit} /> Git</li>
           <li><FontAwesomeIcon icon={faFigma} /> Figma</li>
         </ul>
+      <GoBack />
       </section>
     </main>
   );

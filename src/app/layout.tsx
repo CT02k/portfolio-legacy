@@ -1,11 +1,29 @@
 import "./globals.css"
 
-import RandomText from "@/components/randomText";
-
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Footer from "@/components/footer"
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CT02",
+  description: "Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em desenvolvimento web.",
+  themeColor: "#93c5fd",
+  keywords: ["CT02", "Desenvolvedor", "Fullstack", "Web", "Next.js", "React", "TypeScript", "Node.js", "PHP", "HTML", "CSS", "Git", "Figma"],
+  authors: [{ name: "CT02", url: "https://ct02.work"}],
+  creator: "CT02",
+  applicationName: "CT02",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "CT02",
+    description: "Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em desenvolvimento web.",
+    images: ["https://ct02.work/og.png"],
+  },
+};
 
 export default function RootLayout({
   children,
@@ -15,22 +33,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <title>CT02</title>
-        <meta property="og:title" content="CT02" />
-        <meta property="og:description" content="Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em desenvolvimento web." />
-        <meta property="og:image" content="/og.png" />
-        <meta property="theme-color" content="#93c5fd" />
       </head>
       <body>
         {children}
-        <footer>
-        <div className="socials">
-          <a href="https://github.com/ct02k" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </div>
-          <RandomText />
-        </footer>
+        <Footer/>
       </body>
     </html>
   );

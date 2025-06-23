@@ -1,0 +1,15 @@
+footer {
+  @apply bottom-0 py-5 text-center w-full text-sm md:text-base backdrop-blur-md border-t bg-white/10;
+}
+
+.socials {
+  @apply flex flex-row justify-center space-x-3 py-2;
+}
+
+.socials a {
+  @apply text-black transition text-3xl hover:transition hover:text-zinc-800;
+}
+
+a.link {
+  @apply text-blue-500 underline transition hover:transition hover:text-blue-400;
+}

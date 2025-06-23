@@ -1,0 +1,23 @@
+.project {
+  @apply flex flex-row p-3 items-center w-80 md:w-80 rounded-xl grayscale transition hover:transition hover:grayscale-0 border hover:bg-zinc-200/20 shadow-sm;
+}
+
+.project .text {
+  @apply px-5;
+}
+
+.project .text h2 {
+  @apply text-xl font-semibold;
+}
+
+.project .text p {
+  @apply text-xs md:text-base text-zinc-700;
+}
+
+.project .text .tags {
+  @apply flex flex-row flex-wrap items-center justify-start gap-2 mt-2;
+}
+
+.project .text .tags span {
+  @apply text-xs font-medium text-zinc-500 bg-zinc-200/50 rounded-xl px-2 py-1;
+}

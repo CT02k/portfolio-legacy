@@ -8,12 +8,22 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body {
-  @apply bg-zinc-100 flex flex-col h-screen text-black;
+  @apply bg-zinc-100 dark:bg-zinc-900 flex flex-col h-screen text-black dark:text-white;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .content {
-  @apply flex flex-col items-center justify-center h-full;
+  @apply flex flex-col items-center justify-center h-full backdrop-blur-md;
 }
 
 .main {
@@ -28,86 +38,14 @@ h1 span {
   @apply text-blue-300;
 }
 
-.main p {
-  @apply text-base text-zinc-700;
-}
-
-.main .buttons {
-  @apply py-5 space-x-5;
-}
-
-button.cta {
-  @apply py-1 text-lg text-black underline transition hover:transition hover:text-zinc-500;
-}
-
 .projects {
   @apply py-5;
 }
 
 .project-group {
-  @apply flex flex-col py-5 space-y-5;
-}
-
-.project {
-  @apply flex flex-row p-3 items-center w-80 md:w-2/3 rounded-lg grayscale transition hover:transition hover:grayscale-0 hover:bg-zinc-200/35;
-}
-
-.project img {
-  @apply h-[100px] w-[100px] rounded-lg;
-}
-
-.project .text {
-  @apply px-5;
-}
-
-.project .text h2 {
-  @apply text-2xl font-bold;
-}
-
-.project .text p {
-  @apply text-xs md:text-base text-zinc-700;
-}
-
-.project .text .tags {
-  @apply flex flex-row flex-wrap items-center justify-start space-x-2 mt-2;
-}
-
-.project .text .tags span {
-  @apply text-xs font-medium text-zinc-500 bg-zinc-200/50 rounded-lg px-2 py-1;
+  @apply flex flex-wrap mt-5 gap-5;
 }
 
 .contact {
   @apply py-5;
-}
-
-footer {
-  @apply absolute bottom-0 py-5 text-center w-full text-sm md:text-base bg-zinc-100;
-}
-
-a.link {
-  @apply text-blue-500 underline transition hover:transition hover:text-blue-400;
-}
-
-.habilidades {
-  @apply flex flex-col items-start justify-center w-9/12 md:w-1/2
-}
-
-.habilidades ul {
-  @apply grid grid-cols-2 md:grid-cols-5 gap-5 py-5;
-}
-
-.habilidades li {
-  @apply flex flex-col items-center justify-center text-center p-3 rounded-lg h-24 w-40 border text-lg font-medium;
-}
-
-.habilidades li svg {
-  @apply text-2xl mb-2;
-}
-
-.socials {
-  @apply flex flex-row justify-center space-x-3 py-2;
-}
-
-.socials a {
-  @apply text-black transition text-3xl hover:transition hover:text-zinc-800;
 }

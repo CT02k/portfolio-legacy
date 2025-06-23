@@ -1,0 +1,11 @@
+.main p {
+  @apply text-base text-zinc-700 dark:text-zinc-300;
+}
+
+.main .buttons {
+  @apply py-5 space-x-5;
+}
+
+a.cta {
+  @apply py-1 text-lg text-black underline decoration-blue-300 transition hover:transition hover:text-zinc-700;
+}
