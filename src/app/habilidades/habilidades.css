@@ -3,7 +3,7 @@
 }
 
 .habilidades ul {
-  @apply flex flex-wrap gap-5 py-5;
+  @apply flex flex-wrap gap-4 py-5;
 }
 
 .habilidades li {

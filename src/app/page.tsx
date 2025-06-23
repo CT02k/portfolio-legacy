@@ -13,7 +13,7 @@ export default function Home() {
           <span className="animate-spin">*</span>
         </h1>
         <p className="description">
-          Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em desenvolvimento web. Trabalho com tecnologias como React, Next.js, Node.js, TypeScript, entre outras.
+          Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em aplicações web. Trabalho com tecnologias como React, Next.js, Node.js, TypeScript, entre outras.
         </p>
         <div className="buttons">
           <Link href="/projects" className="cta">Projetos</Link>

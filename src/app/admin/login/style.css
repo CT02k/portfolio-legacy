@@ -1,0 +1,31 @@
+.login {
+  @apply h-full flex flex-col items-center justify-center bg-zinc-100 dark:bg-zinc-900 text-black dark:text-white;
+}
+
+.login-form {
+  @apply flex flex-col items-start justify-center bg-white/10 border dark:bg-zinc-800 p-6 rounded-lg shadow-md;
+}
+
+.login-form h1 {
+  @apply text-2xl font-bold mb-4;
+}
+
+.login-form label {
+  @apply text-sm font-medium mb-2;
+}
+
+.login-form input {
+  @apply w-full p-2 mb-4 border rounded-lg outline-none focus:border-blue-300 hover:shadow-sm;
+}
+
+.login-form button {
+  @apply w-full bg-blue-400 text-white p-2 rounded-lg hover:bg-blue-400/90 transition-colors;
+}
+
+.error-message {
+  @apply px-5 py-2 bg-red-500/50 rounded-lg border border-red-500 text-red-900 mt-4;
+}
+
+.success-message {
+  @apply px-5 py-2 bg-green-500/50 rounded-lg border border-green-500 text-green-900 mt-4;
+}

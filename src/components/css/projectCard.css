@@ -1,5 +1,5 @@
 .project {
-  @apply flex flex-row p-3 items-center w-80 md:w-80 rounded-xl grayscale transition hover:transition hover:grayscale-0 border hover:bg-zinc-200/20 shadow-sm;
+  @apply flex flex-row p-3 items-center w-80 md:w-80 rounded-xl transition hover:transition border hover:bg-zinc-200/20 shadow-sm;
 }
 
 .project .text {

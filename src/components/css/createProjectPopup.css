@@ -1,0 +1,35 @@
+.create-project-popup h2 {
+  @apply text-2xl font-semibold mb-4 text-center;
+}
+
+.create-project-popup button {
+  @apply px-4 bg-blue-500 rounded-lg text-center py-2 text-white font-medium transition hover:bg-blue-500/90;
+}
+
+.create-project-popup .popup-content {
+  @apply fixed flex flex-col items-center justify-center z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-screen h-screen backdrop-blur-md p-4;
+}
+
+.create-project-popup form {
+  @apply flex flex-col items-start justify-center w-full max-w-md bg-white rounded-lg shadow-lg p-6;
+}
+
+.create-project-popup form input {
+  @apply w-full p-2 mb-4 border border-gray-300 rounded-lg;
+}
+
+.create-project-popup form textarea {
+  @apply w-full p-2 mb-4 border border-gray-300 rounded-lg;
+}
+
+.tags-container {
+  @apply flex flex-wrap gap-2 mb-5;
+}
+
+button.tag {
+  @apply px-4 bg-gray-200 rounded-full text-center py-0.5 border text-gray-700 font-medium transition hover:bg-gray-300;
+}
+
+button.close-popup {
+  @apply mt-2 bg-gray-500 hover:bg-gray-500/90;
+}

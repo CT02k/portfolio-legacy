@@ -1,0 +1,23 @@
+.project {
+  @apply flex flex-col p-4 border border-gray-200 rounded-lg shadow-sm mb-5;
+}
+
+.project h2 {
+  @apply text-2xl font-semibold mb-2;
+}
+
+.project p {
+  @apply text-sm text-gray-700 my-0;
+}
+
+.project .buttons {
+  @apply flex flex-row items-center justify-between gap-3 mt-4;
+}
+
+.project button {
+  @apply w-full bg-blue-500 rounded-lg text-center h-12 text-white font-medium transition hover:bg-blue-500/90;
+}
+
+.project button.danger {
+  @apply bg-red-500 hover:bg-red-500/90 w-12 h-12;
+}

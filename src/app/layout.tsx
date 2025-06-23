@@ -9,7 +9,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "CT02",
   description: "Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente sou um desenvolvedor fullstack, com foco em desenvolvimento web.",
-  themeColor: "#93c5fd",
   keywords: ["CT02", "Desenvolvedor", "Fullstack", "Web", "Next.js", "React", "TypeScript", "Node.js", "PHP", "HTML", "CSS", "Git", "Figma"],
   authors: [{ name: "CT02", url: "https://ct02.work"}],
   creator: "CT02",
@@ -33,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        <meta name="theme-color" content="#93c5fd" />
       </head>
       <body>
         {children}
