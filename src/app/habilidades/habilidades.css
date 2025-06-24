@@ -7,7 +7,7 @@
 }
 
 .habilidades li {
-  @apply flex flex-col items-center justify-center text-center p-3 rounded-xl h-24 w-40 border text-lg font-medium shadow-sm;
+  @apply flex flex-col items-center justify-center text-center p-3 rounded-xl h-24 w-32 border text-lg font-medium shadow-sm;
 }
 
 .habilidades li svg {

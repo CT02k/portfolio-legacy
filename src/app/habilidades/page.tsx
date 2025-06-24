@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <main className="content">
       <section className="habilidades">
+      <GoBack />
         <h1>
           Habilidades<span>*</span>
         </h1>
@@ -24,7 +25,6 @@ export default function Home() {
           <li><FontAwesomeIcon icon={faGit} /> Git</li>
           <li><FontAwesomeIcon icon={faFigma} /> Figma</li>
         </ul>
-      <GoBack />
       </section>
     </main>
   );

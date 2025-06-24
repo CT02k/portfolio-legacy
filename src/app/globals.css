@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-  @apply flex flex-col items-center justify-center h-full backdrop-blur-md;
+  @apply flex flex-col items-center justify-center h-[calc(100vh-9rem)] backdrop-blur-md;
 }
 
 .main {

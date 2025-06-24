@@ -10,6 +10,7 @@ export default async function Page() {
   return (
     <main className="content">
       <section className="main">
+        <GoBack/>
         <h1>Projetos<span>*</span></h1>
         <p>Conheça alguns dos projetos em destaque que desenvolvi.</p>
         <div className="project-group">
@@ -23,7 +24,6 @@ export default async function Page() {
             />
           ))}
         </div>
-        <GoBack/>
       </section>
     </main>
   );

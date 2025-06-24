@@ -1,5 +1,5 @@
 footer {
-  @apply bottom-0 py-5 text-center w-full text-sm md:text-base backdrop-blur-md border-t bg-white/10;
+  @apply bottom-0 py-5 text-center w-full h-36 text-sm md:text-base backdrop-blur-md border-t bg-white/10;
 }
 
 .socials {
